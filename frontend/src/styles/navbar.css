@@ -1,0 +1,16 @@
+nav {
+  background-color: #111936;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
