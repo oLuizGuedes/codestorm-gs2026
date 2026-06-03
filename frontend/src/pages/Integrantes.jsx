@@ -1,0 +1,5 @@
+function Integrantes() {
+  return <h1>Integrantes</h1>;
+}
+
+export default Integrantes;
