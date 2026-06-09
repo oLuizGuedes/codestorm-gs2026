@@ -2,17 +2,10 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <h2>🚀 AstroSupply</h2>
 
-      <ul
-        style={{
-          display: "flex",
-          gap: "20px",
-          listStyle: "none",
-          padding: 0,
-        }}
-      >
+      <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/sobre">Sobre</Link></li>
         <li><Link to="/dashboard">Dashboard</Link></li>
@@ -21,8 +14,6 @@ function Navbar() {
         <li><Link to="/contato">Contato</Link></li>
         <li><Link to="/integrantes">Integrantes</Link></li>
       </ul>
-
-      <hr />
     </nav>
   );
 }

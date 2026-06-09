@@ -109,3 +109,160 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    #0b1026,
+    #1c2541
+  );
+}
+
+.navbar {
+  background: #0b1026;
+  color: white;
+  padding: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #58a6ff;
+}
+
+.hero {
+  padding: 50px 20px;
+}
+
+.cards-home {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.info-card,
+.resource-card {
+  background: white;
+  color: black;
+  border-radius: 15px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {
+  background: linear-gradient(135deg, #0b1026, #1c2541);
+}
+
+#root {
+  border: none;
+}
+
+.navbar h2 {
+  color: white !important;
+}
+
+.dashboard h1,
+.hero h1,
+.home h1 {
+  color: white !important;
+}
+
+.dashboard {
+  color: white;
+}
+
+.hero {
+  color: white;
+}
+
+.hero p {
+  color: #d1d5db;
+  font-size: 20px;
+}
+
+.resource-card h2 {
+  color: #111827 !important;
+}
+
+.resource-card h3 {
+  color: #2563eb;
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+.resource-card {
+  transition: all 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+p {
+  color: #d1d5db;
+}
+
+.info-card p,
+.resource-card p {
+  color: #374151;
+  font-weight: 500;
+}
+
+.info-card {
+  background: white;
+  color: #111827;
+  border-radius: 15px;
+  padding: 25px;
+  width: 250px;
+  min-height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+.info-card h3 {
+  color: #111827;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  color: #374151;
+  font-size: 18px;
+  line-height: 1.5;
+}
