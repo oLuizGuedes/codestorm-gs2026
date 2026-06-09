@@ -1,24 +1,34 @@
 import ResourceCard from "../components/ResourceCard";
+import "../styles/dashboard.css";
 
 function Dashboard() {
   return (
-    <div>
+    <div className="dashboard-container">
       <h1>Dashboard</h1>
 
-      <ResourceCard
-        titulo="Água"
-        valor="80%"
-      />
+      <div className="dashboard-grid">
 
-      <ResourceCard
-        titulo="Oxigênio"
-        valor="95%"
-      />
+        <ResourceCard
+          nome="Estoque Atual"
+          porcentagem={70}
+        />
 
-      <ResourceCard
-        titulo="Alimentos"
-        valor="70%"
-      />
+        <ResourceCard
+          nome="Consumo de Água"
+          porcentagem={85}
+        />
+
+        <ResourceCard
+          nome="Energia"
+          porcentagem={62}
+        />
+
+        <ResourceCard
+          nome="Eficiência"
+          porcentagem={91}
+        />
+
+      </div>
     </div>
   );
 }
