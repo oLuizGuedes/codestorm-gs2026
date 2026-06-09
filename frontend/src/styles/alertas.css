@@ -1,0 +1,13 @@
+.alertas-container {
+  padding: 40px;
+}
+
+.alertas-container h1 {
+  margin-bottom: 20px;
+}
+
+.alertas-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
