@@ -1,0 +1,38 @@
+.alertas-container {
+  padding: 40px;
+}
+
+.alertas-container h1 {
+  margin-bottom: 20px;
+}
+
+.alertas-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.alert-card {
+  background-color: white;
+  padding: 20px;
+  width: 280px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+}
+
+.alert-card:hover {
+  transform: translateY(-5px);
+}
+
+.alert-card h3 {
+  color: #d62828;
+  margin-bottom: 10px;
+}
+
+.alert-card p {
+  color: #444;
+}
