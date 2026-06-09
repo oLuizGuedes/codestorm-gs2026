@@ -1,24 +1,10 @@
-import AlertCard from "../components/AlertCard";
-import "../styles/alertas.css";
-
-function Alertas() {
+function AlertCard({ titulo, mensagem }) {
   return (
-    <div className="alertas-container">
-      <h1>Centro de Alertas</h1>
-
-      <div className="alertas-grid">
-        <AlertCard
-          titulo="Estoque baixo"
-          mensagem="Alimentos abaixo de 70%"
-        />
-
-        <AlertCard
-          titulo="Consumo elevado"
-          mensagem="Uso de água acima do esperado"
-        />
-      </div>
+    <div className="alert-card">
+      <h3>{titulo}</h3>
+      <p>{mensagem}</p>
     </div>
   );
 }
 
-export default Alertas;
+export default AlertCard;

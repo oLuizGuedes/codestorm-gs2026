@@ -1,12 +1,22 @@
+import AlertCard from "../components/AlertCard";
+import "../styles/alertas.css";
+
 function Alertas() {
   return (
-    <div>
-      <h1>Alertas</h1>
+    <div className="alertas-container">
+      <h1>Centro de Alertas</h1>
 
-      <ul>
-        <li>Alimentos abaixo de 70%</li>
-        <li>Verificação de estoque recomendada</li>
-      </ul>
+      <div className="alertas-grid">
+        <AlertCard
+          titulo="Estoque baixo"
+          mensagem="Alimentos abaixo de 70%"
+        />
+
+        <AlertCard
+          titulo="Consumo elevado"
+          mensagem="Uso de água acima do esperado"
+        />
+      </div>
     </div>
   );
 }
