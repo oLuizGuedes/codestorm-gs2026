@@ -1,6 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import "./styles/footer.css";
 
 import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
@@ -24,6 +27,8 @@ function App() {
         <Route path="/contato" element={<Contato />} />
         <Route path="/integrantes" element={<Integrantes />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }
